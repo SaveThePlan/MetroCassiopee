@@ -144,6 +144,8 @@
 		CEA838DE1950899800A68DC9 /* STPPlanetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPPlanetViewController.m; sourceTree = "<group>"; };
 		CEA838E019508A0500A68DC9 /* STPPlanetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPPlanetView.h; sourceTree = "<group>"; };
 		CEA838E119508A0500A68DC9 /* STPPlanetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPPlanetView.m; sourceTree = "<group>"; };
+		CEA838E5195095A400A68DC9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEA838E6195095A400A68DC9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,8 @@
 		CE91E14E19505C57000449F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEA838E5195095A400A68DC9 /* AudioToolbox.framework */,
+				CEA838E6195095A400A68DC9 /* AVFoundation.framework */,
 				CE91E14F19505C57000449F9 /* Foundation.framework */,
 				CE91E15119505C57000449F9 /* CoreGraphics.framework */,
 				CE91E15319505C57000449F9 /* UIKit.framework */,

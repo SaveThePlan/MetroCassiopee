@@ -9,6 +9,7 @@
 #import "STPMapTableViewController.h"
 #import "STPPlanet.h"
 #import "STPPlanetViewController.h"
+#import "UIImage+STPImageResize.h"
 
 @interface STPMapTableViewController () {
     NSArray * planets;
@@ -89,22 +90,23 @@
     
     if([planet isJediPlace]) {
         cellId = @"cellJedi";
-        character = @"leia.png";
+        character = @"leia";
         bgColor = [UIColor whiteColor];
         fgColor = [UIColor lightGrayColor];
     } else {
         cellId = @"cellSith";
-        character = @"vador.png";
+        character = @"vador";
         bgColor = [UIColor blackColor];
         fgColor = [UIColor whiteColor];
     }
-    
+
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
     
     if(!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellId];
         [cell setBackgroundColor:bgColor];
         [[cell textLabel] setTextColor:fgColor];
+        [[cell imageView] setImage:[UIImage imageResizeWithName:character andType:@"png" andHeight:40.0]];
     }
     
     [[cell textLabel] setText:[planet name]];
