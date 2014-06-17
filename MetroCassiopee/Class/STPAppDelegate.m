@@ -7,16 +7,41 @@
 //
 
 #import "STPAppDelegate.h"
+#import "STPTabBarController.h"
 
 @implementation STPAppDelegate
 
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#pragma mark - Birth & Death
+
+-(void)dealloc
+{
+    [_window release]; _window = nil;
+    
+    [super dealloc];
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#pragma mark - Lifecycle
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    STPTabBarController * tabBar = [[STPTabBarController alloc] init];
+    
+    [_window addSubview:[tabBar view]];
+    [_window setRootViewController:tabBar];
+    
+    [_window makeKeyAndVisible];
+    
+    [tabBar release];
+    
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

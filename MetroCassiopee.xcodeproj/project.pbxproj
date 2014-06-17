@@ -12,13 +12,55 @@
 		CE91E15419505C57000449F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE91E15319505C57000449F9 /* UIKit.framework */; };
 		CE91E15A19505C57000449F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE91E15819505C57000449F9 /* InfoPlist.strings */; };
 		CE91E15C19505C57000449F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91E15B19505C57000449F9 /* main.m */; };
-		CE91E16019505C57000449F9 /* STPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91E15F19505C57000449F9 /* STPAppDelegate.m */; };
+		CE91E16019505C57000449F9 /* STPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91E15F19505C57000449F9 /* STPAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE91E16219505C57000449F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE91E16119505C57000449F9 /* Images.xcassets */; };
 		CE91E16919505C57000449F9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE91E16819505C57000449F9 /* XCTest.framework */; };
 		CE91E16A19505C57000449F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE91E14F19505C57000449F9 /* Foundation.framework */; };
 		CE91E16B19505C57000449F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE91E15319505C57000449F9 /* UIKit.framework */; };
 		CE91E17319505C57000449F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE91E17119505C57000449F9 /* InfoPlist.strings */; };
 		CE91E17519505C57000449F9 /* MetroCassiopeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91E17419505C57000449F9 /* MetroCassiopeeTests.m */; };
+		CEA8389D19505F4E00A68DC9 /* fond-1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEA8387B19505F4E00A68DC9 /* fond-1024x1024.jpg */; };
+		CEA8389E19505F4E00A68DC9 /* fond-1136x1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEA8387C19505F4E00A68DC9 /* fond-1136x1136.jpg */; };
+		CEA8389F19505F4E00A68DC9 /* fond-2048x2048.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEA8387D19505F4E00A68DC9 /* fond-2048x2048.jpg */; };
+		CEA838A019505F4E00A68DC9 /* fond-960x960.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEA8387E19505F4E00A68DC9 /* fond-960x960.jpg */; };
+		CEA838A119505F4E00A68DC9 /* leia.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388019505F4E00A68DC9 /* leia.png */; };
+		CEA838A219505F4E00A68DC9 /* vador.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388119505F4E00A68DC9 /* vador.png */; };
+		CEA838A319505F4E00A68DC9 /* back-segmented.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388319505F4E00A68DC9 /* back-segmented.png */; };
+		CEA838A419505F4E00A68DC9 /* div-segmented.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388419505F4E00A68DC9 /* div-segmented.png */; };
+		CEA838A519505F4E00A68DC9 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388619505F4E00A68DC9 /* gear.png */; };
+		CEA838A619505F4E00A68DC9 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388719505F4E00A68DC9 /* map.png */; };
+		CEA838A719505F4E00A68DC9 /* planete-0.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388919505F4E00A68DC9 /* planete-0.png */; };
+		CEA838A819505F4E00A68DC9 /* planete-1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388A19505F4E00A68DC9 /* planete-1.png */; };
+		CEA838A919505F4E00A68DC9 /* planete-10.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388B19505F4E00A68DC9 /* planete-10.png */; };
+		CEA838AA19505F4E00A68DC9 /* planete-11.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388C19505F4E00A68DC9 /* planete-11.png */; };
+		CEA838AB19505F4E00A68DC9 /* planete-12.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388D19505F4E00A68DC9 /* planete-12.png */; };
+		CEA838AC19505F4E00A68DC9 /* planete-13.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388E19505F4E00A68DC9 /* planete-13.png */; };
+		CEA838AD19505F4E00A68DC9 /* planete-14.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8388F19505F4E00A68DC9 /* planete-14.png */; };
+		CEA838AE19505F4E00A68DC9 /* planete-15.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389019505F4E00A68DC9 /* planete-15.png */; };
+		CEA838AF19505F4E00A68DC9 /* planete-16.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389119505F4E00A68DC9 /* planete-16.png */; };
+		CEA838B019505F4E00A68DC9 /* planete-17.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389219505F4E00A68DC9 /* planete-17.png */; };
+		CEA838B119505F4E00A68DC9 /* planete-18.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389319505F4E00A68DC9 /* planete-18.png */; };
+		CEA838B219505F4E00A68DC9 /* planete-19.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389419505F4E00A68DC9 /* planete-19.png */; };
+		CEA838B319505F4E00A68DC9 /* planete-2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389519505F4E00A68DC9 /* planete-2.png */; };
+		CEA838B419505F4E00A68DC9 /* planete-3.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389619505F4E00A68DC9 /* planete-3.png */; };
+		CEA838B519505F4E00A68DC9 /* planete-4.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389719505F4E00A68DC9 /* planete-4.png */; };
+		CEA838B619505F4E00A68DC9 /* planete-5.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389819505F4E00A68DC9 /* planete-5.png */; };
+		CEA838B719505F4E00A68DC9 /* planete-6.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389919505F4E00A68DC9 /* planete-6.png */; };
+		CEA838B819505F4E00A68DC9 /* planete-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389A19505F4E00A68DC9 /* planete-7.png */; };
+		CEA838B919505F4E00A68DC9 /* planete-8.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389B19505F4E00A68DC9 /* planete-8.png */; };
+		CEA838BA19505F4E00A68DC9 /* planete-9.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8389C19505F4E00A68DC9 /* planete-9.png */; };
+		CEA838BD19505FD600A68DC9 /* STPChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838BC19505FD600A68DC9 /* STPChooseViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEA838C31950629400A68DC9 /* STPChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838C21950629400A68DC9 /* STPChooseView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEA838CB195062AE00A68DC9 /* UIBarButtonItem+STPCustomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838C6195062AE00A68DC9 /* UIBarButtonItem+STPCustomImage.m */; };
+		CEA838CC195062AE00A68DC9 /* UIImage+STPImageResize.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838C8195062AE00A68DC9 /* UIImage+STPImageResize.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEA838CD195062AE00A68DC9 /* UIView+STPViewForAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838CA195062AE00A68DC9 /* UIView+STPViewForAutoLayout.m */; };
+		CEA838D0195072E500A68DC9 /* STPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838CF195072E500A68DC9 /* STPUser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEA838D31950777700A68DC9 /* STPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838D21950777700A68DC9 /* STPTabBarController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEA838D619507B8700A68DC9 /* STPPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838D519507B8700A68DC9 /* STPPlanet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEA838D91950818400A68DC9 /* STPMetroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838D81950818400A68DC9 /* STPMetroViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEA838DC195081A700A68DC9 /* STPMapTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838DB195081A700A68DC9 /* STPMapTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEA838DF1950899800A68DC9 /* STPPlanetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838DE1950899800A68DC9 /* STPPlanetViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEA838E219508A0500A68DC9 /* STPPlanetView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA838E119508A0500A68DC9 /* STPPlanetView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +90,60 @@
 		CE91E17019505C57000449F9 /* MetroCassiopeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MetroCassiopeeTests-Info.plist"; sourceTree = "<group>"; };
 		CE91E17219505C57000449F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE91E17419505C57000449F9 /* MetroCassiopeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetroCassiopeeTests.m; sourceTree = "<group>"; };
+		CEA8387B19505F4E00A68DC9 /* fond-1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-1024x1024.jpg"; sourceTree = "<group>"; };
+		CEA8387C19505F4E00A68DC9 /* fond-1136x1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-1136x1136.jpg"; sourceTree = "<group>"; };
+		CEA8387D19505F4E00A68DC9 /* fond-2048x2048.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-2048x2048.jpg"; sourceTree = "<group>"; };
+		CEA8387E19505F4E00A68DC9 /* fond-960x960.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-960x960.jpg"; sourceTree = "<group>"; };
+		CEA8388019505F4E00A68DC9 /* leia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leia.png; sourceTree = "<group>"; };
+		CEA8388119505F4E00A68DC9 /* vador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vador.png; sourceTree = "<group>"; };
+		CEA8388319505F4E00A68DC9 /* back-segmented.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-segmented.png"; sourceTree = "<group>"; };
+		CEA8388419505F4E00A68DC9 /* div-segmented.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "div-segmented.png"; sourceTree = "<group>"; };
+		CEA8388619505F4E00A68DC9 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		CEA8388719505F4E00A68DC9 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		CEA8388919505F4E00A68DC9 /* planete-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-0.png"; sourceTree = "<group>"; };
+		CEA8388A19505F4E00A68DC9 /* planete-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-1.png"; sourceTree = "<group>"; };
+		CEA8388B19505F4E00A68DC9 /* planete-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-10.png"; sourceTree = "<group>"; };
+		CEA8388C19505F4E00A68DC9 /* planete-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-11.png"; sourceTree = "<group>"; };
+		CEA8388D19505F4E00A68DC9 /* planete-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-12.png"; sourceTree = "<group>"; };
+		CEA8388E19505F4E00A68DC9 /* planete-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-13.png"; sourceTree = "<group>"; };
+		CEA8388F19505F4E00A68DC9 /* planete-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-14.png"; sourceTree = "<group>"; };
+		CEA8389019505F4E00A68DC9 /* planete-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-15.png"; sourceTree = "<group>"; };
+		CEA8389119505F4E00A68DC9 /* planete-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-16.png"; sourceTree = "<group>"; };
+		CEA8389219505F4E00A68DC9 /* planete-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-17.png"; sourceTree = "<group>"; };
+		CEA8389319505F4E00A68DC9 /* planete-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-18.png"; sourceTree = "<group>"; };
+		CEA8389419505F4E00A68DC9 /* planete-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-19.png"; sourceTree = "<group>"; };
+		CEA8389519505F4E00A68DC9 /* planete-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-2.png"; sourceTree = "<group>"; };
+		CEA8389619505F4E00A68DC9 /* planete-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-3.png"; sourceTree = "<group>"; };
+		CEA8389719505F4E00A68DC9 /* planete-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-4.png"; sourceTree = "<group>"; };
+		CEA8389819505F4E00A68DC9 /* planete-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-5.png"; sourceTree = "<group>"; };
+		CEA8389919505F4E00A68DC9 /* planete-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-6.png"; sourceTree = "<group>"; };
+		CEA8389A19505F4E00A68DC9 /* planete-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-7.png"; sourceTree = "<group>"; };
+		CEA8389B19505F4E00A68DC9 /* planete-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-8.png"; sourceTree = "<group>"; };
+		CEA8389C19505F4E00A68DC9 /* planete-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-9.png"; sourceTree = "<group>"; };
+		CEA838BB19505FD600A68DC9 /* STPChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPChooseViewController.h; sourceTree = "<group>"; };
+		CEA838BC19505FD600A68DC9 /* STPChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPChooseViewController.m; sourceTree = "<group>"; };
+		CEA838C11950629400A68DC9 /* STPChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPChooseView.h; sourceTree = "<group>"; };
+		CEA838C21950629400A68DC9 /* STPChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPChooseView.m; sourceTree = "<group>"; };
+		CEA838C5195062AE00A68DC9 /* UIBarButtonItem+STPCustomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+STPCustomImage.h"; sourceTree = "<group>"; };
+		CEA838C6195062AE00A68DC9 /* UIBarButtonItem+STPCustomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+STPCustomImage.m"; sourceTree = "<group>"; };
+		CEA838C7195062AE00A68DC9 /* UIImage+STPImageResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+STPImageResize.h"; sourceTree = "<group>"; };
+		CEA838C8195062AE00A68DC9 /* UIImage+STPImageResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+STPImageResize.m"; sourceTree = "<group>"; };
+		CEA838C9195062AE00A68DC9 /* UIView+STPViewForAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STPViewForAutoLayout.h"; sourceTree = "<group>"; };
+		CEA838CA195062AE00A68DC9 /* UIView+STPViewForAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STPViewForAutoLayout.m"; sourceTree = "<group>"; };
+		CEA838CE195072E500A68DC9 /* STPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPUser.h; sourceTree = "<group>"; };
+		CEA838CF195072E500A68DC9 /* STPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPUser.m; sourceTree = "<group>"; };
+		CEA838D11950777700A68DC9 /* STPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTabBarController.h; sourceTree = "<group>"; };
+		CEA838D21950777700A68DC9 /* STPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTabBarController.m; sourceTree = "<group>"; };
+		CEA838D419507B8700A68DC9 /* STPPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPPlanet.h; sourceTree = "<group>"; };
+		CEA838D519507B8700A68DC9 /* STPPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPPlanet.m; sourceTree = "<group>"; };
+		CEA838D71950818400A68DC9 /* STPMetroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPMetroViewController.h; sourceTree = "<group>"; };
+		CEA838D81950818400A68DC9 /* STPMetroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPMetroViewController.m; sourceTree = "<group>"; };
+		CEA838DA195081A700A68DC9 /* STPMapTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPMapTableViewController.h; sourceTree = "<group>"; };
+		CEA838DB195081A700A68DC9 /* STPMapTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPMapTableViewController.m; sourceTree = "<group>"; };
+		CEA838DD1950899800A68DC9 /* STPPlanetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPPlanetViewController.h; sourceTree = "<group>"; };
+		CEA838DE1950899800A68DC9 /* STPPlanetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPPlanetViewController.m; sourceTree = "<group>"; };
+		CEA838E019508A0500A68DC9 /* STPPlanetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPPlanetView.h; sourceTree = "<group>"; };
+		CEA838E119508A0500A68DC9 /* STPPlanetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPPlanetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +203,7 @@
 		CE91E15519505C57000449F9 /* MetroCassiopee */ = {
 			isa = PBXGroup;
 			children = (
+				CEA8387919505F4E00A68DC9 /* Ressource */,
 				CE91E17E19505CA4000449F9 /* Class */,
 				CE91E16119505C57000449F9 /* Images.xcassets */,
 				CE91E15619505C57000449F9 /* Supporting Files */,
@@ -146,6 +243,7 @@
 		CE91E17E19505CA4000449F9 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				CEA838C4195062AE00A68DC9 /* Category */,
 				CE91E18119505CE9000449F9 /* View */,
 				CE91E18019505CD1000449F9 /* Model */,
 				CE91E17F19505CC2000449F9 /* Controller */,
@@ -158,6 +256,16 @@
 		CE91E17F19505CC2000449F9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CEA838BB19505FD600A68DC9 /* STPChooseViewController.h */,
+				CEA838BC19505FD600A68DC9 /* STPChooseViewController.m */,
+				CEA838D11950777700A68DC9 /* STPTabBarController.h */,
+				CEA838D21950777700A68DC9 /* STPTabBarController.m */,
+				CEA838D71950818400A68DC9 /* STPMetroViewController.h */,
+				CEA838D81950818400A68DC9 /* STPMetroViewController.m */,
+				CEA838DA195081A700A68DC9 /* STPMapTableViewController.h */,
+				CEA838DB195081A700A68DC9 /* STPMapTableViewController.m */,
+				CEA838DD1950899800A68DC9 /* STPPlanetViewController.h */,
+				CEA838DE1950899800A68DC9 /* STPPlanetViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,6 +273,10 @@
 		CE91E18019505CD1000449F9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CEA838CE195072E500A68DC9 /* STPUser.h */,
+				CEA838CF195072E500A68DC9 /* STPUser.m */,
+				CEA838D419507B8700A68DC9 /* STPPlanet.h */,
+				CEA838D519507B8700A68DC9 /* STPPlanet.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,8 +284,102 @@
 		CE91E18119505CE9000449F9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CEA838C11950629400A68DC9 /* STPChooseView.h */,
+				CEA838C21950629400A68DC9 /* STPChooseView.m */,
+				CEA838E019508A0500A68DC9 /* STPPlanetView.h */,
+				CEA838E119508A0500A68DC9 /* STPPlanetView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CEA8387919505F4E00A68DC9 /* Ressource */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8387A19505F4E00A68DC9 /* bg */,
+				CEA8387F19505F4E00A68DC9 /* characters */,
+				CEA8388219505F4E00A68DC9 /* elements */,
+				CEA8388519505F4E00A68DC9 /* icons */,
+				CEA8388819505F4E00A68DC9 /* planets */,
+			);
+			path = Ressource;
+			sourceTree = "<group>";
+		};
+		CEA8387A19505F4E00A68DC9 /* bg */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8387B19505F4E00A68DC9 /* fond-1024x1024.jpg */,
+				CEA8387C19505F4E00A68DC9 /* fond-1136x1136.jpg */,
+				CEA8387D19505F4E00A68DC9 /* fond-2048x2048.jpg */,
+				CEA8387E19505F4E00A68DC9 /* fond-960x960.jpg */,
+			);
+			path = bg;
+			sourceTree = "<group>";
+		};
+		CEA8387F19505F4E00A68DC9 /* characters */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8388019505F4E00A68DC9 /* leia.png */,
+				CEA8388119505F4E00A68DC9 /* vador.png */,
+			);
+			path = characters;
+			sourceTree = "<group>";
+		};
+		CEA8388219505F4E00A68DC9 /* elements */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8388319505F4E00A68DC9 /* back-segmented.png */,
+				CEA8388419505F4E00A68DC9 /* div-segmented.png */,
+			);
+			path = elements;
+			sourceTree = "<group>";
+		};
+		CEA8388519505F4E00A68DC9 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8388619505F4E00A68DC9 /* gear.png */,
+				CEA8388719505F4E00A68DC9 /* map.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		CEA8388819505F4E00A68DC9 /* planets */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8388919505F4E00A68DC9 /* planete-0.png */,
+				CEA8388A19505F4E00A68DC9 /* planete-1.png */,
+				CEA8388B19505F4E00A68DC9 /* planete-10.png */,
+				CEA8388C19505F4E00A68DC9 /* planete-11.png */,
+				CEA8388D19505F4E00A68DC9 /* planete-12.png */,
+				CEA8388E19505F4E00A68DC9 /* planete-13.png */,
+				CEA8388F19505F4E00A68DC9 /* planete-14.png */,
+				CEA8389019505F4E00A68DC9 /* planete-15.png */,
+				CEA8389119505F4E00A68DC9 /* planete-16.png */,
+				CEA8389219505F4E00A68DC9 /* planete-17.png */,
+				CEA8389319505F4E00A68DC9 /* planete-18.png */,
+				CEA8389419505F4E00A68DC9 /* planete-19.png */,
+				CEA8389519505F4E00A68DC9 /* planete-2.png */,
+				CEA8389619505F4E00A68DC9 /* planete-3.png */,
+				CEA8389719505F4E00A68DC9 /* planete-4.png */,
+				CEA8389819505F4E00A68DC9 /* planete-5.png */,
+				CEA8389919505F4E00A68DC9 /* planete-6.png */,
+				CEA8389A19505F4E00A68DC9 /* planete-7.png */,
+				CEA8389B19505F4E00A68DC9 /* planete-8.png */,
+				CEA8389C19505F4E00A68DC9 /* planete-9.png */,
+			);
+			path = planets;
+			sourceTree = "<group>";
+		};
+		CEA838C4195062AE00A68DC9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CEA838C5195062AE00A68DC9 /* UIBarButtonItem+STPCustomImage.h */,
+				CEA838C6195062AE00A68DC9 /* UIBarButtonItem+STPCustomImage.m */,
+				CEA838C7195062AE00A68DC9 /* UIImage+STPImageResize.h */,
+				CEA838C8195062AE00A68DC9 /* UIImage+STPImageResize.m */,
+				CEA838C9195062AE00A68DC9 /* UIView+STPViewForAutoLayout.h */,
+				CEA838CA195062AE00A68DC9 /* UIView+STPViewForAutoLayout.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,8 +458,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA838B519505F4E00A68DC9 /* planete-4.png in Resources */,
+				CEA838A619505F4E00A68DC9 /* map.png in Resources */,
+				CEA838B219505F4E00A68DC9 /* planete-19.png in Resources */,
+				CEA838B819505F4E00A68DC9 /* planete-7.png in Resources */,
+				CEA838AE19505F4E00A68DC9 /* planete-15.png in Resources */,
+				CEA838AD19505F4E00A68DC9 /* planete-14.png in Resources */,
+				CEA838AC19505F4E00A68DC9 /* planete-13.png in Resources */,
+				CEA838A919505F4E00A68DC9 /* planete-10.png in Resources */,
+				CEA838B619505F4E00A68DC9 /* planete-5.png in Resources */,
+				CEA838B019505F4E00A68DC9 /* planete-17.png in Resources */,
+				CEA838AB19505F4E00A68DC9 /* planete-12.png in Resources */,
+				CEA838A719505F4E00A68DC9 /* planete-0.png in Resources */,
+				CEA838A219505F4E00A68DC9 /* vador.png in Resources */,
+				CEA8389D19505F4E00A68DC9 /* fond-1024x1024.jpg in Resources */,
+				CEA838A419505F4E00A68DC9 /* div-segmented.png in Resources */,
+				CEA838BA19505F4E00A68DC9 /* planete-9.png in Resources */,
 				CE91E15A19505C57000449F9 /* InfoPlist.strings in Resources */,
+				CEA838B319505F4E00A68DC9 /* planete-2.png in Resources */,
+				CEA838A519505F4E00A68DC9 /* gear.png in Resources */,
+				CEA838B419505F4E00A68DC9 /* planete-3.png in Resources */,
 				CE91E16219505C57000449F9 /* Images.xcassets in Resources */,
+				CEA838AA19505F4E00A68DC9 /* planete-11.png in Resources */,
+				CEA838A119505F4E00A68DC9 /* leia.png in Resources */,
+				CEA838A319505F4E00A68DC9 /* back-segmented.png in Resources */,
+				CEA838AF19505F4E00A68DC9 /* planete-16.png in Resources */,
+				CEA8389E19505F4E00A68DC9 /* fond-1136x1136.jpg in Resources */,
+				CEA838A819505F4E00A68DC9 /* planete-1.png in Resources */,
+				CEA838B119505F4E00A68DC9 /* planete-18.png in Resources */,
+				CEA838B719505F4E00A68DC9 /* planete-6.png in Resources */,
+				CEA8389F19505F4E00A68DC9 /* fond-2048x2048.jpg in Resources */,
+				CEA838A019505F4E00A68DC9 /* fond-960x960.jpg in Resources */,
+				CEA838B919505F4E00A68DC9 /* planete-8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +508,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA838D91950818400A68DC9 /* STPMetroViewController.m in Sources */,
+				CEA838DF1950899800A68DC9 /* STPPlanetViewController.m in Sources */,
+				CEA838CC195062AE00A68DC9 /* UIImage+STPImageResize.m in Sources */,
 				CE91E16019505C57000449F9 /* STPAppDelegate.m in Sources */,
+				CEA838CB195062AE00A68DC9 /* UIBarButtonItem+STPCustomImage.m in Sources */,
+				CEA838CD195062AE00A68DC9 /* UIView+STPViewForAutoLayout.m in Sources */,
+				CEA838C31950629400A68DC9 /* STPChooseView.m in Sources */,
+				CEA838DC195081A700A68DC9 /* STPMapTableViewController.m in Sources */,
+				CEA838D619507B8700A68DC9 /* STPPlanet.m in Sources */,
+				CEA838D0195072E500A68DC9 /* STPUser.m in Sources */,
+				CEA838D31950777700A68DC9 /* STPTabBarController.m in Sources */,
+				CEA838BD19505FD600A68DC9 /* STPChooseViewController.m in Sources */,
+				CEA838E219508A0500A68DC9 /* STPPlanetView.m in Sources */,
 				CE91E15C19505C57000449F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +720,7 @@
 				CE91E17A19505C57000449F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE91E17B19505C57000449F9 /* Build configuration list for PBXNativeTarget "MetroCassiopeeTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +729,7 @@
 				CE91E17D19505C57000449F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
